@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KotlinDemo</string>
+
+    <string name="txt_name">Name</string>
+
+    <!--Navigation Drawer Menu Items-->
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Swipe</string>
+    <string name="nav_contact">Animation</string>
+    <string name="nav_movie">Movies</string>
+    <string name="nav_logout">Logout</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="search">Search</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="language">Language</string>
+    <string name="rating">Rating</string>
+    <string name="boxoffice">BoxOffice</string>
+    <string name="year">Year</string>
+    <string name="release">Released</string>
+    <string name="runtime">Runtime</string>
+    <string name="director">Director</string>
+    <string name="actors">Actors</string>
+    <string name="production">Production</string>
+    <string name="plot">Plot</string>
+    <string name="award">Awards</string>
+
+</resources>
