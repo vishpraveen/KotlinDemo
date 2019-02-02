@@ -52,7 +52,8 @@ class ThirdNew : AppCompatActivity(),RecyclerOnClick  {
     private fun onClickListener() {
         bar?.setNavigationOnClickListener { drawerLayout?.openDrawer(GravityCompat.START) }
         fab?.setOnClickListener {
-            val intent=Intent(mContext,SplashActivity::class.java)
+//            val intent=Intent(mContext,SplashActivity::class.java)
+            val intent=Intent(mContext,TestActivity::class.java)
             startActivity(intent)
         }
     }

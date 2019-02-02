@@ -3,7 +3,6 @@
     package="com.example.magneto.kotlindemo">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -19,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".activity.TableViewCalendar"></activity>
+        <activity android:name=".activity.TestActivity" />
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
@@ -49,18 +51,15 @@
         <activity
             android:name=".activity.MapsActivity"
             android:label="@string/title_activity_maps"
-            android:theme="@style/MapTheme" />
-
-        <!-- Google Places SDK -->
+            android:theme="@style/MapTheme" /> <!-- Google Places SDK -->
         <!--
             <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAH4KaZcLk1McMc8qveFNcBmPAVvBE8rgg"/>
         -->
-
         <activity android:name=".activity.SwipeActivity" />
         <activity android:name=".activity.AnimationActivity" />
-        <activity android:name=".activity.MovieDetails"></activity>
+        <activity android:name=".activity.MovieDetails" />
     </application>
 
 </manifest>
