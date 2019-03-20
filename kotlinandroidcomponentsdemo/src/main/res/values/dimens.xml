@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shrine_toolbar_offset_start">50dp</dimen>
+    <dimen name="shrine_toolbar_offset_top">50dp</dimen>
+    <dimen name="shrine_toolbar_image_offset_top">0dp</dimen>
+    <dimen name="shrine_toolbar_collapsed_height">50dp</dimen>
+</resources>

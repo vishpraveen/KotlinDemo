@@ -30,11 +30,9 @@
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="8e8e8e" />
-                            <entry key="height" value="205" />
-                            <entry key="outputName" value="ic_add_red" />
+                            <entry key="outputName" value="ic_round_arrow_back" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="$USER_HOME$/Downloads/icons/add red.svg" />
-                            <entry key="width" value="205" />
+                            <entry key="sourceFile" value="$USER_HOME$/Downloads/icons/round-arrow_back.svg" />
                           </map>
                         </option>
                       </PersistentState>

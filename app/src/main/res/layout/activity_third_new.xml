@@ -20,21 +20,74 @@
                 android:id="@+id/animation_view"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_150sdp"
+                android:background="@color/colorAccent"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                android:background="@color/colorAccent"
                 app:lottie_rawRes="@raw/christmas_tree_with_gifts" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/animation_view1"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_150sdp"
+                android:background="@color/colorPrimary"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                android:background="@color/colorPrimary"
                 app:lottie_rawRes="@raw/fabulous_onboarding_animation" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <RelativeLayout
+                    android:id="@+id/rlCompressed"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ivCompressedImage"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/_8sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivCompressedImage"
+                        android:text="@string/compressed_image"
+                        android:textAlignment="center" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlBase64"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ivBase64Image"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/_8sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ivBase64Image"
+                        android:text="@string/image_from_base64_string"
+                        android:textAlignment="center" />
+                </RelativeLayout>
+            </LinearLayout>
         </LinearLayout>
+
 
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bar"
@@ -43,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:backgroundTint="@color/colorPrimary"
-            app:fabAlignmentMode="center"
+            app:fabAlignmentMode="end"
             app:fabCradleMargin="@dimen/_6sdp"
             app:fabCradleRoundedCornerRadius="@dimen/_10sdp"
             app:fabCradleVerticalOffset="0dp"

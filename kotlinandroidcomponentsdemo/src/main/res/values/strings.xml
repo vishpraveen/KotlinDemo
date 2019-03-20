@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KotlinAndroidComponentsDemo</string>
+    <string name="home">Home</string>
+    <string name="profile_frag">Profile</string>
+    <string name="profile_act">My Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notificaiton">Notificaiton</string>
+</resources>

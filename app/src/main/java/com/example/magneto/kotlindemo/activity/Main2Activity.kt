@@ -20,7 +20,7 @@ class Main2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
 
 //        for entering fullscreen mode
-        window.decorView.systemUiVisibility=(View.SYSTEM_UI_FLAG_IMMERSIVE
+       /* window.decorView.systemUiVisibility=(View.SYSTEM_UI_FLAG_IMMERSIVE
                 // Set the content to appear under the system bars so that the
                 // content doesn't resize when the system bars hide and show.
                 or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
@@ -28,7 +28,7 @@ class Main2Activity : AppCompatActivity() {
                 or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                 // Hide the nav bar and status bar
                 or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                or View.SYSTEM_UI_FLAG_FULLSCREEN)
+                or View.SYSTEM_UI_FLAG_FULLSCREEN)*/
 
         var name=intent.getStringExtra("data")
         animation_view.playAnimation()
@@ -38,7 +38,8 @@ class Main2Activity : AppCompatActivity() {
         txt_name=findViewById(R.id.txt_name)
         txt_name?.text=name
 
-        btn_map?.setOnClickListener { var intent= Intent(this, MapsActivity::class.java)
+        btn_map?.setOnClickListener {
+            val intent= Intent(this, TrackingActivity::class.java)
             startActivity(intent)
         }
 

@@ -15,9 +15,8 @@ import com.example.magneto.kotlindemo.adapter.List_Adapter2
 import com.example.magneto.kotlindemo.bean.Login
 import com.example.magneto.kotlindemo.inteface.EnumClicks
 import com.example.magneto.kotlindemo.inteface.RecycleClick
-import com.example.magneto.kotlindemo.retrofit.APIService
 import com.example.magneto.kotlindemo.retrofit.ApiService
-import com.google.android.material.color.MaterialColors
+import com.example.magneto.kotlindemo.utility.DateTimeHelper
 import kotlinx.android.synthetic.main.activity_splash.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -78,6 +77,7 @@ class MainActivity : AppCompatActivity(),RecycleClick {
     private fun msg(s: String) {
         Toast.makeText(this,s,Toast.LENGTH_SHORT).show()
     }
+
 
     override fun click(where: EnumClicks, view: View, position: Int) {
         if(where==EnumClicks.CELL) {

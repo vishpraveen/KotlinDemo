@@ -29,5 +29,33 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="city_name">City Name</string>
     <string name="email">Email</string>
+    <string name="received_stop_broadcast">Received stop Broadcast</string>
+    <string name="notification_for_location">Notification for Location</string>
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="transport_id" translatable="false">123</string>
+    <string name="firebase_path" translatable="false">locations</string>
+    <string name="firebase_email" translatable="false">pravinv.magneto@gmail.com</string>
+    <string name="firebase_password" translatable="false">magneto@123</string>
+    <string name="enable_location">Please enable location services</string>
+    <string name="permission_not_granted">Please grant permission.</string>
+    <string name="firebase_auth_succuss">Firebase Auth Success.</string>
+    <string name="firebase_auth_failed">Firebase Auth Failed</string>
+    <string name="location_updated">Location Updated :</string>
+    <string name="title_activity_tracking">Map</string>
+    <string name="failed_to_read_value">Failed to read value. </string>
+    <string name="task_is_null">Task is null.</string>
+    <string name="search_source">Search Source</string>
+    <string name="search_destination">Search Destination.</string>
+    <string name="location_not_found">Location Not Found</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera_thumb">Camera Thumbnail</string>
+    <string name="camera_full">Camera Full Image</string>
+    <string name="select_any_option">Select any option</string>
+    <string name="image_from_base64_string">Image from decoding Base64 String</string>
+    <string name="compressed_image">Compressed Image</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Price</string>
+    <string name="product_description">Description</string>
+    <string name="add_product">Add Product</string>
 
 </resources>
