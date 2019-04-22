@@ -1,4 +1,4 @@
-package com.example.kotlinandroidcomponentsdemo.view
+package com.example.kotlinandroidcomponentsdemo.View
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,13 +8,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.kotlinandroidcomponentsdemo.R
-import com.example.kotlinandroidcomponentsdemo.interfaces.EnumClicks
-import com.example.kotlinandroidcomponentsdemo.interfaces.OnClickListener
-import com.example.kotlinandroidcomponentsdemo.model.NavigationModel
+import com.example.kotlinandroidcomponentsdemo.ViewModel.EnumClicks
+import com.example.kotlinandroidcomponentsdemo.ViewModel.OnClickListener
+import com.example.kotlinandroidcomponentsdemo.Model.NavigationModel
 
 class NavigationAdaper(val context: Context?, val navList: ArrayList<NavigationModel>?, val listener: OnClickListener?) : RecyclerView.Adapter<NavigationAdaper.NavViewHolder>(){
 

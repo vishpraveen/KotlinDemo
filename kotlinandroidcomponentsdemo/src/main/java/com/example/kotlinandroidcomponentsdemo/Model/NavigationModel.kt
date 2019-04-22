@@ -1,4 +1,4 @@
-package com.example.kotlinandroidcomponentsdemo.model
+package com.example.kotlinandroidcomponentsdemo.Model
 
 import com.example.kotlinandroidcomponentsdemo.R
 

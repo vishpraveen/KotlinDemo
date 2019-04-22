@@ -1,13 +1,11 @@
-package com.example.kotlinandroidcomponentsdemo.activity
+package com.example.kotlinandroidcomponentsdemo.View
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
-import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.FrameLayout
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
@@ -17,13 +15,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import androidx.navigation.NavController
-import androidx.navigation.Navigation
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
 import com.example.kotlinandroidcomponentsdemo.R
-import com.example.kotlinandroidcomponentsdemo.fragments.HomeFragment
-import com.example.kotlinandroidcomponentsdemo.fragments.ProfileFragment
 import com.google.android.material.bottomappbar.BottomAppBar
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
@@ -39,8 +31,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var navigationview: NavigationView
     private lateinit var fab: FloatingActionButton
     private lateinit var mainFrame: FrameLayout
-    private var homeFragment : HomeFragment= HomeFragment()
-    private var profileFragment: ProfileFragment= ProfileFragment()
+    private var homeFragment : HomeFragment = HomeFragment()
+    private var profileFragment: ProfileFragment = ProfileFragment()
     private var fragmentManager: FragmentManager= supportFragmentManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
